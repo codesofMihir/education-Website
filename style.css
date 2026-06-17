@@ -21,6 +21,7 @@ body {
         top: 20px;
         left: 80px;
         background-color: #168dc8;
+        border-radius:16px;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
@@ -57,6 +58,15 @@ body {
         display: flex;
         justify-content: flex-start;
 
+    }
+
+    .col-md-10 i{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+        margin-left:1000px;
+        font-size:40px;
     }
 
 
