@@ -5,57 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+  integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+  integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="style.css" rel="stylesheet">
 </head>
 
-<body>
-    <section class="a">
-            <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-7">
-                    <img src="img/bg1.jpeg" alt="back" width="100%" style="height: 100vh;">
-
-                </div>
-
-
-
-                <div class="col-md-5">
-                    <div class="card-body">
-                        <form>
-                            <div class="name">
-                                <label for="username">USER NAME</label>
-                                <input type="text" placeholder="username" id="username" class="form-control">
-                            </div>
+<body class="ir">
+    <section class="i">
+        <div class="container-fluid" id="r">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <img src="img/logo.png" alt="Weducation logo" width="40%">
+                    <p>USER LOGIN</p>
+                    <form>
+                        <div class="name">
+                            <label for="username">Username</label>
+                            <input type="text" placeholder="username" id="username" class="form-control">
+                        </div>
 
 
-                            <div class="pass">
-                                <label for="password">Password</label>
-                                <input type="password" placeholder=" enter 8 digit password" id="password">
-                            </div>
+                        <div class="pass">
+                            <label for="password">Password</label>
+                            <input type="password" placeholder=" enter 8 digit password" id="password">
+                        </div>
 
-                            <div class="options">
-                                <label class="remember"></label>
-                                <input type="checkbox">Remember me
+                        <div class="options">
+                            <label class="remember"></label>
+                            <input type="checkbox">Remember me
 
-                                <a href="#" class="forget">Forget password</a>
-                            </div>
+                            <a href="#" class="forget">Forget password</a>
+                        </div>
 
-                            <button type="submit" class="btn" onclick="login(event)">submit</button>
+                        <button type="submit" class="btn btn-primary" onclick="login(event)">submit</button>
+                        <!-- <a href="#" class="btn btn-primary">FACULTY LOGIN</a> -->
 
-                            <div class="sign-up">
-                                New student? <a href="#">Create an account</a>
-                            </div>
+                        <div class="sign-up">
+                            New student? <a href="#">Create an account</a>
+                        </div>
+                    </form>
 
-                    </div>
                 </div>
             </div>
+        </div>
+
+        </div>
+        </div>
     </section>
-</body>
 
 
-<!-- <section class="lp">
+    <!-- <section class="lp">
         <div class="card" style="width: 18rem; height:100%">
             <img src="img/logo.png" width="40%" alt="fl">
             
@@ -87,12 +90,12 @@
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

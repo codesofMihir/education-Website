@@ -684,6 +684,43 @@ body {
     border-radius: 8px;
 }
 
+
+.ir{
+    background-image: url('img/bg1.jpeg');
+    background-size: cover;
+    backdrop-filter:blur(8px)
+}
+.i .card p{
+    text-align: center;
+}
+
+.i .card img{
+    margin-left:70px;
+}
+
+.i .card form{
+    margin-top:40px;
+
+    text-align:center;
+}
+
+.i .card{
+    margin: 0 auto ;
+    margin-top:200px;
+    height:400px;
+    border-radius:8px ;
+    background-color:rgb(186, 217, 238);
+    box-shadow: 0px 0 15px rgba(244, 189, 189, 0.15);
+}
+
+.i .card:hover{
+    box-shadow: 0px 0 15px rgba(244, 189, 189, 0.15);
+    transition: 0.4 ease-in-out;
+    transform:scale(1.05);
+    
+}
+
+
 /* RESPONSIVE
 @media (max-width: 768px) {
   .login-right {
