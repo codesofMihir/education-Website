@@ -446,10 +446,12 @@ body {
 
     .container .card img {
         display: block;
-        margin: 0 auto;
-        max-width: 100%;
-        height: auto;
+        width: 100%;
+        aspect-ratio: 16/9 ;
+        object-fit:contain;
     }
+
+    
 
     .container .card {
         background: whitesmoke;
@@ -666,7 +668,9 @@ body {
     height:100%;
     width:100%;
 }
-.cc .col-md-4{
+.cc .col-md-4 p{
+    text-align: center;
+    color:#6add5d;
 }
 
 
@@ -694,6 +698,10 @@ body {
     font-weight:800;
 }
 .cc .row .col-md-4 img{
+    aspect-ratio: 3/2;
+    overflow: hidden;
+    object-fit:fill;
+    width:100%;
     padding: 15px 15px;
     border-radius: 8px;
 }
@@ -714,7 +722,6 @@ body {
 
 .i .card form{
     margin-top:40px;
-
     text-align:center;
 }
 
@@ -855,6 +862,7 @@ body {
         padding: 20px;
     }
 
+    
     .m h1 {
         font-size: 2.8rem;
     }
@@ -880,7 +888,29 @@ body {
     footer.ft {
         margin-top: 100px;
     }
+
+    .container .card {
+        margin-top:10px;
+    }
+
+    .cc .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .cc .row .col-md-4 {
+        flex: 1 1 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .cc .row .col-md-4 .card {
+        margin: 0;
+        width: 100%;
+    }
 }
+
 
 @media (max-width:576px) {
     .logo {
