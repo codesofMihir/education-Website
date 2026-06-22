@@ -664,11 +664,9 @@ body {
 
 .cc .row .card{
     height:100%;
+    width:100%;
 }
 .cc .col-md-4{
-    display:flex;
-    justify-content: center;
-    align-items: center;
 }
 
 
