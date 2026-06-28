@@ -254,7 +254,7 @@ body {
         transform: scale(1.05);
     }
 
-    .coursesection .row i {
+    .coursesection  i {
         font-size: 40px;
         display: block;
         margin-left: 35px;
