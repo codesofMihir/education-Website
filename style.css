@@ -733,6 +733,23 @@ body {
     margin:20px 0;
     padding-bottom:10px;
 }
+.i .card .terms input{
+    margin-left:-10px;
+    padding-right: 30px; 
+    
+}
+.i .card .terms p{
+    text-align: right;
+    color:red;
+    margin-top:-30px; 
+}
+
+.i button{
+    display: block;
+    margin:0 auto;
+    margin-bottom:30px;
+    margin-top:30px;
+}
 .i .card .input-box input{
     border:none;
     outline:none;
