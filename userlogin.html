@@ -6,63 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Login</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-  integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-  integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body class="ir">
     <section class="i">
-        <div class="container-fluid" >
+        <div class="container-fluid">
             <div class="card" style="width: 20rem;">
                 <div class="card-body">
                     <img src="img/logo.png" alt="Weducation logo" width="40%">
                     <p>USER LOGIN</p>
-                     <form>
+                    <form>
 
-        <div class="input-box">
-            <i class="fa-regular fa-user"></i>
-            <input type="text" placeholder="Enter your name">
-        </div>
+                        <div class="input-box">
+                            <i class="fa-regular fa-user"></i>
+                            <input type="text" placeholder="Enter your name">
+                        </div>
 
-        <div class="input-box">
-            <i class="fa-solid fa-lock"></i>
-            <input type="password" placeholder="Confirm a password">
-            <i class="fa-regular fa-eye eye"></i>
-        </div>
+                        <div class="input-box">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="Enter a password">
+                            <i class="fa-regular fa-eye eye"></i>
+                        </div>
+                        <div class="input-box">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="Renter a password">
+                            <i class="fa-regular fa-eye eye"></i>
+                        </div>
 
-        <div class="terms">
-            <input type="checkbox">
-            <label>Remember me</label>
-            <p onclick="openforget()">Forget password?</p>
-        </div>
+                        <div class="terms">
+                            <input type="checkbox">
+                            <label>Remember me</label>
+                            <p onclick="openforget()">Forget password?</p>
+                        </div>
 
-        <button class="btn btn-primary" submit">Login</button>
+                        <button class="btn btn-primary" >Login</button>
 
-        <p class="login">
-           New User?
-            <a href="register.html">Register Now</a>
-        </p>
+                        <p class="login">
+                            New User?
+                            <a href="register.html">Register Now</a>
+                        </p>
+                    </form>
     </section>
 
     <script>
-                        function login(event) {
-                            event.preventDefault();
+        function login(event) {
+            event.preventDefault();
 
-                            var username = document.getElementById("username").value;
-                            var password = document.getElementById("password").value;
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
 
-                            if (username !== "" && password !== "") {
-                                window.location.href = "studentdashboard.html";
-                            } else {
-                                alert("Please enter username and password!");
-                            }
-                        }
-                    </script>
+            if (username !== "" && password !== "") {
+                window.location.href = "studentdashboard.html";
+            } else {
+                alert("Please enter username and password!");
+            }
+        }
+    </script>
 
 
 
